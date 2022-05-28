@@ -1,0 +1,108 @@
+
+body{
+  background-color: hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+}
+
+main{
+display: flex;
+text-align: center;
+justify-content: left;
+min-height: 100vh;
+flex-direction: column;
+}
+
+
+h1{
+font-family: 'Big Shoulders Display', cursive;
+color:hsl(0, 0%, 95%);
+width:80%;
+margin-left: 40px;
+font-weight: 700;
+font-size: 40px;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color:hsla(0, 0%, 100%, 0.75);
+  margin-left: 40px;
+  margin:40px;
+  font-weight:400;
+}
+
+.container{
+display: flex;
+text-align: left;
+margin:auto;
+width:700px;
+height: 500px;
+}
+
+.images{
+  margin-left: 40px;
+  margin-top:30px;
+}
+
+.text1{
+background-color:hsl(31, 77%, 52%);
+border-radius: 10px 0 0 10px;
+}
+
+.text2{
+  background-color:hsl(184, 100%, 22%);
+  color:hsla(0, 0%, 100%, 0.75);
+
+}
+
+.text3{
+background-color:hsl(179, 100%, 13%);
+border-radius: 0 10px  10px 0;
+}
+
+.button{
+  border-radius: 20px;
+  width:150px;
+  height:40px;
+  margin-left:40px;
+  background-color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight:100;
+}
+
+.button:hover{
+  cursor:pointer;
+  background-color: Transparent;
+}
+
+.orange{
+  color:hsl(31, 77%, 52%);
+}
+
+.orange:hover{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.blue{
+  color:hsl(184, 100%, 22%);
+}
+.blue:hover{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.green{
+  color:hsl(179, 100%, 13%);
+}
+
+.green:hover{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution { font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
